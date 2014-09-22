@@ -1,0 +1,52 @@
+@import url("reset.css");
+ ul,li {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font: 14px Arial;
+ }
+#gorsel{position:relative; width:100%; height:300px;background-color:#F5DADA;}
+#ust{background-color:black;height:4px}
+
+#kategori {position:absolute;margin-top:20px;width:40%;border:2px solid #ddd;height:250px;float:left}
+#kategori button{background: #333; padding: 3px 6px; color: #F7E3F6; cursor: pointer; border-radius: 3px;margin-top:20px;width:100px}
+#kategori  ul{position:relative;width:50%;margin-left:30px}
+#kategori  ul span{width:80%;font:17px Arial bold;margin-top:20px;display:block}
+#kategori  ul li{width:300px;font:14px Arial italic;position:relative;margin-top:10px}
+#kategori ul li input {border: 1px solid #ccc; padding: 4px; width: 80%; border-radius: 3px;line-height:30px;border-top-color:#eee; border-left-color:#eee;padding:2px;border-radius:3px}
+#sonuc {background:#f1f1f1; padding:10px;display:none;margin-top:10px}
+
+
+#alt_kategori {position:relative;margin-top:20px;width:58%;border:2px solid #ddd;height:250px;float:right}
+#alt_kategori button{background: #333; padding: 3px 6px; color: #F7E3F6; cursor: pointer; border-radius: 3px;margin-top:20px;width:100px}
+#alt_kategori  ul{position:relative;width:50%;margin-left:30px}
+#alt_kategori  ul span{width:80%;font:17px Arial bold;margin-top:20px;display:block}
+#alt_kategori  ul li{width:300px;font:14px Arial italic;position:relative;margin-top:10px}
+#alt_kategori ul li input {border: 1px solid #ccc; padding: 4px; width: 80%; border-radius: 3px;line-height:30px;border-top-color:#eee; border-left-color:#eee;padding:2px;border-radius:3px}
+#alt_sonuc {background:#f1f1f1; padding:10px;display:none;margin-top:10px}
+#alt_kategori  select{width:70%; padding:5px; border: 1px solid #ddd; border-radius:3px;font:16px Arial bold }
+
+#sonucum {background:transparent;margin-top:150px;display:none;position:relative;width:50%;}
+
+/* Kategori Bölümü */
+ul{padding:0; margin:0;list-style-type:none} 	
+
+  #menu {border:1px solid white;height: 50px; width: 100%;position:relative;background-color:#E8EAED; margin-bottom:30px;border-radius: 15px; }
+	ul{padding:0; margin:0;list-style-type:none}
+  #menu ul { clear:left;
+  float:left;
+  margin:0;list-style: none;color:red;margin-left:10px}
+  #menu ul.anasayfa li {float: left;border-right:1px solid #ddd;list-style-type:none;}
+  #menu ul li:hover{color:#F2F4F8}
+  #menu ul li a {display: block; font: 17px Arial; color: red;
+  border-right: 1px solid #919191;
+ border-left: 1px solid #6F6C75;
+ border-bottom: 1px solid #232323;
+ border-top: 1px solid #545454; padding: 14px 20px 11px 20px;text-decoration:none;background: #E8EAED;}
+  #menu ul li a:hover {background: #88A2EA;
+ background: -moz-linear-gradient(top, #78A7DF, #88A2EA);
+ background: -webkit-gradient(linear, left top, left bottom, from(#78A7DF), to(#88A2EA));}
+  #menu ul li.anasayfa a {background: url("../images/home.png") top center; text-indent: -9999px; width: 35px;}
+  #menu ul li.anasayfa a:hover {background-position: center -48px}
+  #menu ul li.anasayfa{background-color:transparent;}
